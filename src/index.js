@@ -2,11 +2,11 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-import { createMarkup } from './partials/js/createMarkup';
-import { PixabayAPI } from './partials/js/pixabayAPI';
-import { refs } from './partials/js/refs';
-import { notifyInit } from './partials/js/notifyInit';
-import { spinnerPlay, spinnerStop } from './partials/js/spinner';
+import { createMarkup } from './js/createMarkup';
+import { PixabayAPI } from './js/pixabayAPI';
+import { refs } from './js/refs';
+import { notifyInit } from './js/notifyInit';
+import { spinnerPlay, spinnerStop } from './js/spinner';
 
 
 const modalLightboxGallery = new SimpleLightbox('.gallery a', {
